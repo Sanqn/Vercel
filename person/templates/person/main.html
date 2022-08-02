@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>main</title>
+
+
+</head>
+<body>
+<ul>
+    {% for i in find_person %}
+    <li>{{i.id}}, {{ i.first_name }}, {{ i.last_name }}, {{ i.email }} {{ i.work_experience }}<br></li>
+    {% endfor %}
+</ul>
+<ul>
+    {% for i in all_news %}
+    <li>{{i.name_public}}<br></li>
+    {% endfor %}
+</ul>
+<p>{{ get_one.id }}, {{ get_one.first_name  }}, {{ get_one.last_name  }}, {{ get_one.email  }}</p>
+</body>
+</html>

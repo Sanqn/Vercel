@@ -1,0 +1,1 @@
+list_links = ['https://t.me/anekdot18', 'https://t.me/anekom']
